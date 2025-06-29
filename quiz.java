@@ -6,14 +6,7 @@ public class quiz{
 
     //quiz game 
     //questions arry[]
-    //options array[]
-    //declare varibales
-    //welcome mesagfe
-    //question loop
-    //options
-    //get guess from user
-    //check the guess
-    //display the final rsult 
+    //options 
     String[] questions={"what is the main funvtion of a router",
                         " which part of the comouter is known as the brain",
                         "what year was facebook launches",
@@ -28,7 +21,7 @@ public class quiz{
                         {"1. python","2. C", "3. C++", "4. fortran"}};
 
 
-            //choocing the correct answers and atoring them 
+           
             int[] answers={3,1,2,2,4};
             int score=0;
             int guess;
@@ -58,18 +51,12 @@ public class quiz{
         System.out.println("final score is "+score);
 
 
+
+
+
+
+
         
-
-
-
-
-
-
-
-
-
-
-
             sc.close();
 
     
